@@ -1,0 +1,28 @@
+<p>
+  <b>Project:</b>
+  <%=h @feature.project %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @feature.title %>
+</p>
+
+<p>
+  <b>As a:</b>
+  <%=h @feature.as_a %>
+</p>
+
+<p>
+  <b>I want:</b>
+  <%=h @feature.i_want %>
+</p>
+
+<p>
+  <b>So that:</b>
+  <%=h @feature.so_that %>
+</p>
+
+
+<%= link_to 'Edit', edit_feature_path(@feature) %> |
+<%= link_to 'Back', features_path %>
