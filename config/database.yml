@@ -1,0 +1,20 @@
+test: &TEST
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: javascript_test
+  pool: 5
+  username: root
+  password: root
+
+production:
+  <<: *TEST
+  database: javascript_production
+
+development:
+  <<: *TEST
+  database: javascript_development
+
+cucumber:
+  <<: *TEST
+
