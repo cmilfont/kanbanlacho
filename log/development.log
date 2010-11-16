@@ -268,3 +268,1468 @@ Rendering template within layouts/application
 Rendering projects/index
   [4;35;1mProject Columns (169.0ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
 Completed in 421ms (View: 155, DB: 176) | 200 OK [http://localhost/projects]
+  [4;36;1mSQL (106.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (21.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:40:32) [GET]
+  [4;36;1mProject Load (59.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (184.9ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 2523ms (View: 1616, DB: 372) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:40:50) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (11.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 49ms (View: 12, DB: 13) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:44:26) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 107ms (View: 28, DB: 3) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:45:47) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 69ms (View: 23, DB: 4) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:45:58) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 43ms (View: 12, DB: 4) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:48:23) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 27ms (View: 9, DB: 4) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:48:41) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 25ms (View: 9, DB: 3) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:51:48) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (41.9ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 135ms (View: 79, DB: 43) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:52:29) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 26ms (View: 9, DB: 4) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:58:15) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-11-15 16:58:40) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM `projects` [0m
+Rendering template within layouts/application
+Rendering projects/index
+  [4;35;1mProject Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 154ms (View: 137, DB: 3) | 200 OK [http://localhost/projects]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-11-15 16:58:43) [GET]
+  [4;36;1mProject Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+Rendering template within layouts/application
+Rendering projects/new
+Completed in 47ms (View: 32, DB: 3) | 200 OK [http://localhost/projects/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-11-15 16:58:47) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"DMBcTuVI5ik9zcWSb/8GDVLhIIj6JWlzS2+pVZ9u6KE=", "project"=>{"name"=>"Testes"}}
+  [4;35;1mProject Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProject Create (148.0ms)[0m   [0mINSERT INTO `projects` (`name`, `created_at`, `updated_at`) VALUES('Testes', '2010-11-15 19:58:47', '2010-11-15 19:58:47')[0m
+  [4;36;1mSQL (20.8ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/projects/2
+Completed in 229ms (DB: 202) | 302 Found [http://localhost/projects]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-11-15 16:58:47) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mProject Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Load (72.6ms)[0m   [0;1mSELECT * FROM `projects` WHERE (`projects`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 126ms (View: 34, DB: 77) | 200 OK [http://localhost/projects/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-11-15 16:58:50) [GET]
+  [4;35;1mProject Load (13.0ms)[0m   [0mSELECT * FROM `projects` [0m
+Rendering template within layouts/application
+Rendering projects/index
+  [4;36;1mProject Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+Completed in 36ms (View: 13, DB: 14) | 200 OK [http://localhost/projects]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-11-15 16:58:52) [GET]
+  [4;35;1mProject Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Rendering template within layouts/application
+Rendering projects/new
+Completed in 36ms (View: 19, DB: 3) | 200 OK [http://localhost/projects/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-11-15 16:58:58) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"DMBcTuVI5ik9zcWSb/8GDVLhIIj6JWlzS2+pVZ9u6KE=", "project"=>{"name"=>"Triadworks"}}
+  [4;36;1mProject Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mProject Create (0.5ms)[0m   [0;1mINSERT INTO `projects` (`name`, `created_at`, `updated_at`) VALUES('Triadworks', '2010-11-15 19:58:58', '2010-11-15 19:58:58')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/projects/3
+Completed in 29ms (DB: 5) | 302 Found [http://localhost/projects]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-11-15 16:58:58) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://localhost/projects/3]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-11-15 16:59:00) [GET]
+  [4;36;1mProject Load (0.7ms)[0m   [0;1mSELECT * FROM `projects` [0m
+Rendering template within layouts/application
+Rendering projects/index
+  [4;35;1mProject Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 48ms (View: 31, DB: 4) | 200 OK [http://localhost/projects]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-11-15 16:59:03) [GET]
+  [4;36;1mProject Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+Rendering template within layouts/application
+Rendering projects/new
+Completed in 17ms (View: 9, DB: 2) | 200 OK [http://localhost/projects/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-11-15 16:59:09) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"DMBcTuVI5ik9zcWSb/8GDVLhIIj6JWlzS2+pVZ9u6KE=", "project"=>{"name"=>"JavaCESocial"}}
+  [4;35;1mProject Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mProject Create (0.7ms)[0m   [0mINSERT INTO `projects` (`name`, `created_at`, `updated_at`) VALUES('JavaCESocial', '2010-11-15 19:59:09', '2010-11-15 19:59:09')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/projects/4
+Completed in 28ms (DB: 4) | 302 Found [http://localhost/projects]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-11-15 16:59:10) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mProject Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` WHERE (`projects`.`id` = 4) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 14ms (View: 4, DB: 2) | 200 OK [http://localhost/projects/4]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 16:59:16) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM `projects` [0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+Completed in 18ms (View: 10, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:03:24) [GET]
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` [0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+Completed in 16ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#show to json (for 127.0.0.1 at 2010-11-15 17:03:25) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mFeature Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mFeature Load (10.6ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`id` = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Feature with ID=1):
+  app/controllers/features_controller.rb:16:in `show'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (216.1ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#new (for 127.0.0.1 at 2010-11-15 17:03:50) [GET]
+  [4;35;1mFeature Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Rendering template within layouts/application
+Rendering features/new
+Completed in 82ms (View: 62, DB: 4) | 200 OK [http://localhost/features/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#create (for 127.0.0.1 at 2010-11-15 17:04:38) [POST]
+  Parameters: {"feature"=>{"so_that"=>"para alimentar o kanban", "as_a"=>"codificador", "title"=>"Criar Features", "project"=>"1", "i_want"=>"colar post-its"}, "commit"=>"Create", "authenticity_token"=>"DMBcTuVI5ik9zcWSb/8GDVLhIIj6JWlzS2+pVZ9u6KE="}
+  [4;36;1mFeature Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+
+ActiveRecord::AssociationTypeMismatch (Project(#69841746766060) expected, got String(#69841789445120)):
+  app/controllers/features_controller.rb:43:in `new'
+  app/controllers/features_controller.rb:43:in `create'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.4ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.8ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (143.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20101115182053)
+Migrating to CreateFeatures (20101115183242)
+Migrating to AddStatusToFeature (20101115200723)
+  [4;36;1mSQL (618.7ms)[0m   [0;1mALTER TABLE `features` ADD `status` varchar(255)[0m
+  [4;35;1mSQL (57.7ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101115200723')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (25.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (20.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mSQL (2.5ms)[0m   [0;1mdescribe `features`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW KEYS FROM `features`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mdescribe `projects`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW KEYS FROM `projects`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#create (for 127.0.0.1 at 2010-11-15 17:10:22) [POST]
+  Parameters: {"feature"=>{"so_that"=>"para alimentar o kanban", "as_a"=>"codificador", "title"=>"Criar Features", "project"=>"1", "i_want"=>"colar post-its"}, "commit"=>"Create", "authenticity_token"=>"DMBcTuVI5ik9zcWSb/8GDVLhIIj6JWlzS2+pVZ9u6KE="}
+  [4;35;1mFeature Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+
+ActiveRecord::AssociationTypeMismatch (Project(#69841745428660) expected, got String(#69841789445120)):
+  app/controllers/features_controller.rb:43:in `new'
+  app/controllers/features_controller.rb:43:in `create'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (59.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:10:31) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 16ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#show to json (for 127.0.0.1 at 2010-11-15 17:10:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mFeature Columns (3.6ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mFeature Load (0.9ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`id` = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Feature with ID=1):
+  app/controllers/features_controller.rb:16:in `show'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (193.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#show to json (for 127.0.0.1 at 2010-11-15 17:10:41) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mFeature Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mFeature Load (0.4ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`id` = 4) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Feature with ID=4):
+  app/controllers/features_controller.rb:16:in `show'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#show to json (for 127.0.0.1 at 2010-11-15 17:10:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mFeature Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mFeature Load (0.3ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`id` = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Feature with ID=1):
+  app/controllers/features_controller.rb:16:in `show'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (197.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#show to json (for 127.0.0.1 at 2010-11-15 17:11:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mFeature Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mFeature Load (0.4ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`id` = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Feature with ID=1):
+  app/controllers/features_controller.rb:16:in `show'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (108.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:12:23) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 15ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#show to json (for 127.0.0.1 at 2010-11-15 17:12:25) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mFeature Columns (3.6ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mFeature Load (0.4ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`id` = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Feature with ID=1):
+  app/controllers/features_controller.rb:16:in `show'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (183.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:14:13) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 16ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#1 to json (for 127.0.0.1 at 2010-11-15 17:14:15) [GET]
+  Parameters: {"id"=>"features"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mProject Columns (14.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mFeature Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mSQL (18.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mFeature Create (64.8ms)[0m   [0mINSERT INTO `features` (`so_that`, `created_at`, `title`, `as_a`, `project_id`, `updated_at`, `i_want`, `status`) VALUES(NULL, '2010-11-15 20:17:30', 'teste', NULL, 1, '2010-11-15 20:17:30', NULL, 'pending')[0m
+  [4;36;1mSQL (29.5ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:19:36) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (132.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 694ms (View: 285, DB: 134) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (29.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#1 to json (for 127.0.0.1 at 2010-11-15 17:19:43) [GET]
+  Parameters: {"id"=>"features"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, features, index, new, show, and update):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (19.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:23:23) [GET]
+  [4;36;1mProject Load (16.5ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (84.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 222ms (View: 49, DB: 121) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#1 to json (for 127.0.0.1 at 2010-11-15 17:23:25) [GET]
+  Parameters: {"id"=>"features"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, features, index, new, show, and update):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-11-15 17:23:38) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProject Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 194ms (View: 53, DB: 2) | 200 OK [http://localhost/projects/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show to json (for 127.0.0.1 at 2010-11-15 17:23:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProject Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 14ms (View: 3, DB: 2) | 200 OK [http://localhost/projects/1.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#1 to json (for 127.0.0.1 at 2010-11-15 17:24:34) [GET]
+  Parameters: {"id"=>"features"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, features, index, new, show, and update):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#1 to json (for 127.0.0.1 at 2010-11-15 17:24:40) [GET]
+  Parameters: {"id"=>"features"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, features, index, new, show, and update):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#1 to json (for 127.0.0.1 at 2010-11-15 17:27:15) [GET]
+  Parameters: {"id"=>"features"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, features, index, new, show, and update):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#1 (for 127.0.0.1 at 2010-11-15 17:27:23) [GET]
+  Parameters: {"id"=>"features"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, features, index, new, show, and update):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-15 17:27:40) [GET]
+
+ActionController::RoutingError (No route matches "/project_features" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-15 17:30:11) [GET]
+
+ActionController::RoutingError (No route matches "/project_features" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-11-15 17:30:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProject Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 44ms (View: 20, DB: 2) | 200 OK [http://localhost/projects/1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 17:30:26) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (150.7ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 227ms (View: 24, DB: 155) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 17:30:43) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 30ms (View: 12, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 17:30:59) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (4.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 32ms (View: 12, DB: 6) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (25.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (31.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:54:55) [GET]
+  [4;36;1mProject Load (52.1ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (216.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 506ms (View: 139, DB: 325) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:55:02) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (25.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 145ms (View: 10, DB: 26) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 17:55:34) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (23.7ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (18.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 104ms (View: 7, DB: 43) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:56:38) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 130ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 17:56:42) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 30ms (View: 11, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 17:57:00) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 18ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 17:57:01) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 31ms (View: 12, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:08:19) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (15.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 67ms (View: 33, DB: 16) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:08:21) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 40ms (View: 19, DB: 5) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:09:05) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 18ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:09:11) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 30ms (View: 12, DB: 3) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:10:28) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 18ms (View: 8, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:10:30) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 30ms (View: 12, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:11:05) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 17ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:11:07) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 29ms (View: 12, DB: 3) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:14:14) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (16.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 32ms (View: 7, DB: 17) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:14:16) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 29ms (View: 11, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:14:55) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 18ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:14:56) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 15ms (View: 6, DB: 2) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:15:10) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 17ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:15:11) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 28ms (View: 11, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:15:33) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 18ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:15:34) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 29ms (View: 12, DB: 3) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:15:45) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 17ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:15:47) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 29ms (View: 11, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:16:20) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 18ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:16:22) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 33ms (View: 12, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:17:17) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 18ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:17:19) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 16ms (View: 6, DB: 2) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:17:43) [GET]
+  Parameters: {"project_id"=>"3"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 18ms (View: 7, DB: 2) | 200 OK [http://localhost/projects/3/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:17:45) [GET]
+  Parameters: {"project_id"=>"4"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 34ms (View: 12, DB: 4) | 200 OK [http://localhost/projects/4/features.json]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:17:46) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 33ms (View: 12, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:17:48) [GET]
+  Parameters: {"project_id"=>"2"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 30ms (View: 11, DB: 3) | 200 OK [http://localhost/projects/2/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:17:50) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 32ms (View: 11, DB: 3) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:18:15) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 30ms (View: 11, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:18:16) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 19ms (View: 8, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:18:19) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 32ms (View: 12, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:20:23) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 18ms (View: 8, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:20:25) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 16ms (View: 6, DB: 2) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:20:27) [GET]
+  Parameters: {"project_id"=>"2"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 17ms (View: 6, DB: 2) | 200 OK [http://localhost/projects/2/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:20:28) [GET]
+  Parameters: {"project_id"=>"3"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 35ms (View: 14, DB: 4) | 200 OK [http://localhost/projects/3/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:20:30) [GET]
+  Parameters: {"project_id"=>"4"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 32ms (View: 12, DB: 5) | 200 OK [http://localhost/projects/4/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:20:31) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+  [4;35;1mFeature Columns (3.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 31ms (View: 12, DB: 5) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-11-15 18:20:36) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProject Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering projects/show
+Completed in 69ms (View: 48, DB: 4) | 200 OK [http://localhost/projects/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:20:40) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` [0m
+Rendering template within layouts/application
+Rendering features/index
+  [4;35;1mFeature Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 123ms (View: 101, DB: 6) | 200 OK [http://localhost/projects/1/features]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:20:50) [GET]
+  Parameters: {"project_id"=>"2"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` [0m
+Rendering template within layouts/application
+Rendering features/index
+  [4;35;1mFeature Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 55ms (View: 33, DB: 7) | 200 OK [http://localhost/projects/2/features]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:22:28) [GET]
+  Parameters: {"project_id"=>"2"}
+  [4;36;1mFeature Columns (20.9ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mFeature Load (273.4ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`id` = 2) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Feature with ID=2):
+  app/controllers/features_controller.rb:5:in `index'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (106.5ms)
+Rendered rescues/_request_and_response (48.7ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:22:43) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mFeature Load (85.4ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering features/index
+
+ActionView::TemplateError (undefined method `each' for #<Feature:0x7fd901a7e0e0>) on line #12 of app/views/features/index.html.erb:
+9:     <th>So that</th>
+10:   </tr>
+11: 
+12: <% @features.each do |feature| %>
+13:   <tr>
+14:     <td><%=h feature.project %></td>
+15:     <td><%=h feature.title %></td>
+
+    app/views/features/index.html.erb:12
+    app/controllers/features_controller.rb:7:in `index'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (364.5ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:23:56) [GET]
+  Parameters: {"project_id"=>"1"}
+
+ArgumentError (Unknown key(s): project_id):
+  app/controllers/features_controller.rb:5:in `index'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:24:19) [GET]
+  Parameters: {"project_id"=>"1"}
+
+ArgumentError (Unknown key(s): where):
+  app/controllers/features_controller.rb:5:in `index'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:24:31) [GET]
+  Parameters: {"project_id"=>"1"}
+
+ActiveRecord::RecordNotFound (Couldn't find Feature without an ID):
+  app/controllers/features_controller.rb:5:in `index'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (106.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:24:55) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (20.6ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+Rendering template within layouts/application
+Rendering features/index
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 233ms (View: 19, DB: 24) | 200 OK [http://localhost/projects/1/features]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:25:00) [GET]
+  Parameters: {"project_id"=>"2"}
+  [4;36;1mFeature Load (0.6ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '2') [0m
+Rendering template within layouts/application
+Rendering features/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/projects/2/features]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:25:04) [GET]
+  Parameters: {"project_id"=>"10"}
+  [4;35;1mFeature Load (0.4ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`project_id` = '10') [0m
+Rendering template within layouts/application
+Rendering features/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/projects/10/features]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index (for 127.0.0.1 at 2010-11-15 18:25:10) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+Rendering template within layouts/application
+Rendering features/index
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 17, DB: 4) | 200 OK [http://localhost/projects/1/features]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-11-15 18:25:14) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+Rendering template within layouts/application
+Rendering projects/index
+  [4;35;1mProject Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 69ms (View: 50, DB: 3) | 200 OK [http://localhost/projects/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:25:25) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 17ms (View: 7, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:25:27) [GET]
+  Parameters: {"project_id"=>"2"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '2') [0m
+Completed in 10ms (View: 1, DB: 1) | 200 OK [http://localhost/projects/2/features.json]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:25:28) [GET]
+  Parameters: {"project_id"=>"3"}
+  [4;35;1mFeature Load (1.0ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`project_id` = '3') [0m
+Completed in 19ms (View: 2, DB: 2) | 200 OK [http://localhost/projects/3/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:25:30) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 30ms (View: 11, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:25:32) [GET]
+  Parameters: {"project_id"=>"4"}
+  [4;36;1mFeature Load (1.0ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '4') [0m
+Completed in 20ms (View: 2, DB: 2) | 200 OK [http://localhost/projects/4/features.json]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:25:34) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;35;1mFeature Load (0.3ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;36;1mFeature Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+Completed in 32ms (View: 11, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:26:43) [GET]
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` [0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+Completed in 19ms (View: 8, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:26:44) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;35;1mFeature Load (0.3ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;36;1mFeature Columns (3.6ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+Completed in 40ms (View: 13, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:26:47) [GET]
+  Parameters: {"project_id"=>"2"}
+  [4;35;1mFeature Load (0.4ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`project_id` = '2') [0m
+Completed in 20ms (View: 2, DB: 1) | 200 OK [http://localhost/projects/2/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:26:48) [GET]
+  Parameters: {"project_id"=>"3"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '3') [0m
+Completed in 19ms (View: 2, DB: 1) | 200 OK [http://localhost/projects/3/features.json]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:26:49) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;35;1mFeature Load (0.5ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;36;1mFeature Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+Completed in 32ms (View: 11, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:26:51) [GET]
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` [0m
+  [4;36;1mProject Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+Completed in 21ms (View: 8, DB: 3) | 200 OK [http://localhost/projects.json]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:26:53) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;35;1mFeature Load (0.3ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;36;1mFeature Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+Completed in 30ms (View: 12, DB: 4) | 200 OK [http://localhost/projects/1/features.json]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-11-15 18:27:22) [GET]
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` [0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+Completed in 21ms (View: 10, DB: 2) | 200 OK [http://localhost/projects.json]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:27:24) [GET]
+  Parameters: {"project_id"=>"2"}
+  [4;35;1mFeature Load (0.4ms)[0m   [0mSELECT * FROM `features` WHERE (`features`.`project_id` = '2') [0m
+Completed in 20ms (View: 3, DB: 1) | 200 OK [http://localhost/projects/2/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-15 18:27:25) [GET]
+  Parameters: {"project_id"=>"1"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 32ms (View: 11, DB: 4) | 200 OK [http://localhost/projects/1/features.json]

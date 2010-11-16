@@ -1,7 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :projects
-
   map.resources :features
+
+  map.resources :projects, :has_many => [ :features ]
 
   map.root :controller => "projects"
 

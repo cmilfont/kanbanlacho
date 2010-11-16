@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101115183242) do
+ActiveRecord::Schema.define(:version => 20101115200723) do
 
   create_table "features", :force => true do |t|
     t.integer  "project_id"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20101115183242) do
     t.string   "so_that"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "status"
   end
 
   create_table "projects", :force => true do |t|

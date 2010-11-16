@@ -1,34 +1,34 @@
 class FeaturesController < ApplicationController
   # GET /features
-  # GET /features.xml
+  # GET /features.json
   def index
-    @features = Feature.all
+    @features = Feature.all({:conditions => {:project_id => params[:project_id]}})
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render :xml => @features }
+      format.json  { render :json => @features }
     end
   end
 
   # GET /features/1
-  # GET /features/1.xml
+  # GET /features/1.json
   def show
     @feature = Feature.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render :xml => @feature }
+      format.json  { render :json => @feature }
     end
   end
 
   # GET /features/new
-  # GET /features/new.xml
+  # GET /features/new.json
   def new
     @feature = Feature.new
 
     respond_to do |format|
       format.html # new.html.erb
-      format.xml  { render :xml => @feature }
+      format.json  { render :json => @feature }
     end
   end
 
@@ -38,46 +38,47 @@ class FeaturesController < ApplicationController
   end
 
   # POST /features
-  # POST /features.xml
+  # POST /features.json
   def create
     @feature = Feature.new(params[:feature])
 
     respond_to do |format|
       if @feature.save
         format.html { redirect_to(@feature, :notice => 'Feature was successfully created.') }
-        format.xml  { render :xml => @feature, :status => :created, :location => @feature }
+        format.json  { render :json => @feature, :status => :created, :location => @feature }
       else
         format.html { render :action => "new" }
-        format.xml  { render :xml => @feature.errors, :status => :unprocessable_entity }
+        format.json  { render :json => @feature.errors, :status => :unprocessable_entity }
       end
     end
   end
 
   # PUT /features/1
-  # PUT /features/1.xml
+  # PUT /features/1.json
   def update
     @feature = Feature.find(params[:id])
 
     respond_to do |format|
       if @feature.update_attributes(params[:feature])
         format.html { redirect_to(@feature, :notice => 'Feature was successfully updated.') }
-        format.xml  { head :ok }
+        format.json  { head :ok }
       else
         format.html { render :action => "edit" }
-        format.xml  { render :xml => @feature.errors, :status => :unprocessable_entity }
+        format.json  { render :json => @feature.errors, :status => :unprocessable_entity }
       end
     end
   end
 
   # DELETE /features/1
-  # DELETE /features/1.xml
+  # DELETE /features/1.json
   def destroy
     @feature = Feature.find(params[:id])
     @feature.destroy
 
     respond_to do |format|
       format.html { redirect_to(features_url) }
-      format.xml  { head :ok }
+      format.json  { head :ok }
     end
   end
 end
+
