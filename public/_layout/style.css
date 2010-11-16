@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  font-family: "Trebuchet MS", sans-serif;
+  background: #444;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#444));
+  background: -moz-linear-gradient(top,  #000,  #444);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#444444');
+}
+body {
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  margin-top: 40px;
+  font-size: 50px;
+  color: #EEE;
+}
+table#kanban {
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%;
+  box-shadow: 0 0 50px #AAA;
+  -moz-box-shadow: 0 0 50px #AAA;
+  -webkit-box-shadow: 0 0 50px #AAA;
+  background: #FFF;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+table#kanban th {
+  width: 16%;
+}
+table#kanban td {
+  vertical-align: top;
+}
+table#kanban .postit {
+  margin: 20px 5px;
+  padding: 10px;
+  font-size: 12px;
+  text-align: left;
+  background: #FE0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ED0), to(#FE0));
+  background: -moz-linear-gradient(top,  #DC0,  #FE0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEDD00', endColorstr='#FFEE00');
+  box-shadow: 3px -3px 15px #999;
+  -moz-box-shadow: 3px -3px 15px #999;
+  -webkit-box-shadow: 3px -3px 15px #999;
+}
