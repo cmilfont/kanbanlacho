@@ -6,7 +6,12 @@ class FeaturesController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json  { render :json => @features }
+      format.json  { render :json => {
+          :total => @features.size,
+          :feature => @features,
+          :success => true,
+          :message => ""
+      }}
     end
   end
 
@@ -17,7 +22,12 @@ class FeaturesController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.json  { render :json => @feature }
+      format.json  { render :json => {
+          :total => 1,
+          :feature => @feature,
+          :success => true,
+          :message => ""
+      }}
     end
   end
 
@@ -45,7 +55,12 @@ class FeaturesController < ApplicationController
     respond_to do |format|
       if @feature.save
         format.html { redirect_to(@feature, :notice => 'Feature was successfully created.') }
-        format.json  { render :json => @feature, :status => :created, :location => @feature }
+          format.json  { render :json => {
+              :total => 1,
+              :feature => @feature,
+              :success => true,
+              :message => ""
+          }}
       else
         format.html { render :action => "new" }
         format.json  { render :json => @feature.errors, :status => :unprocessable_entity }
@@ -61,7 +76,12 @@ class FeaturesController < ApplicationController
     respond_to do |format|
       if @feature.update_attributes(params[:feature])
         format.html { redirect_to(@feature, :notice => 'Feature was successfully updated.') }
-        format.json  { head :ok }
+          format.json  { render :json => {
+              :total => 1,
+              :feature => @feature,
+              :success => true,
+              :message => ""
+          }}
       else
         format.html { render :action => "edit" }
         format.json  { render :json => @feature.errors, :status => :unprocessable_entity }
