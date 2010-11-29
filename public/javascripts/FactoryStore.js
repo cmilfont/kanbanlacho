@@ -44,7 +44,16 @@ var FactoryStore = function(configStore) {
 
     });
 
-    var proxy = new Ext.data.HttpProxy({ url: configStore.url });
+    var proxy = new Ext.data.HttpProxy({
+        //url: configStore.url
+        api: {
+            read: {url: configStore.url, method: 'GET'},
+            create: {url: configStore.url, method: 'POST'},
+            destroy: {url: configStore.url, method: 'DELETE'},
+            update: {url: configStore.url, method: 'PUT'}
+        }
+
+    });
 
 	var abstractStore = new Ext.data.Store({
         restful:true,

@@ -1,3 +1,4 @@
+
 var ProjectStore = new FactoryStore({
     root: 'project',
     url: '/projects.json',
@@ -46,7 +47,7 @@ var pagingBar = new Ext.PagingToolbar({
 Ext.onReady(function(){
     Ext.QuickTips.init();
 
-    var grid = new Ext.grid.GridPanel({
+    grid = new Ext.grid.GridPanel({
         loadMask: {msg: 'Loading Features...'},
         renderTo: 'grid_features',
         store: FeatureStore,
@@ -60,8 +61,8 @@ Ext.onReady(function(){
                 {header: 'as_a',       width: 100, dataIndex: 'as_a'},
                 {header: 'i_want',     width: 100, dataIndex: 'i_want'},
                 // instead of specifying renderer: Ext.util.Format.dateRenderer('m/d/Y') use xtype
-                {header: 'created_at', width: 130, dataIndex: 'created_at', xtype: 'datecolumn', format: 'd/m/y'},
-                {header: 'updated_at', width: 130, dataIndex: 'updated_at', xtype: 'datecolumn', format: 'd/m/y'},
+                {header: 'created_at', width: 130, dataIndex: 'created_at', xtype: 'datecolumn', format: 'd/m/yy'},
+                {header: 'updated_at', width: 130, dataIndex: 'updated_at', xtype: 'datecolumn', format: 'd/m/yy'},
                 {header: 'status',     width: 50, dataIndex: 'status'}
             ]
         }),
