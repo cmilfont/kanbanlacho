@@ -4657,3 +4657,2588 @@ Processing FeaturesController#index to json (for 127.0.0.1 at 2010-11-29 15:38:4
   [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
   [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
 Completed in 17ms (View: 6, DB: 2) | 200 OK [http://localhost/features.json?_dc=1291055926065&start=0&limit=5&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (160.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (22.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:23:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 133ms (View: 128, DB: 183) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:23:22) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451002178", "sort"=>"name"}
+  [4;36;1mProject Load (409.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (291.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 1062ms (View: 80, DB: 701) | 200 OK [http://localhost/projects.json?_dc=1291451002178&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:23:23) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451003258", "sort"=>"name"}
+  [4;36;1mFeature Load (140.9ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (31.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 243ms (View: 26, DB: 173) | 200 OK [http://localhost/features.json?_dc=1291451003258&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:24:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:24:20) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451060337", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (19.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 41ms (View: 11, DB: 20) | 200 OK [http://localhost/projects.json?_dc=1291451060337&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:24:21) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451061271", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+Completed in 120ms (View: 7, DB: 2) | 200 OK [http://localhost/features.json?_dc=1291451061271&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:25:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:25:36) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451136659", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291451136659&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:25:37) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451137331", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (14.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 39ms (View: 3, DB: 18) | 200 OK [http://localhost/features.json?_dc=1291451137331&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:29:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:29:12) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451352304", "sort"=>"name"}
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 42ms (View: 19, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291451352304&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:29:13) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451353263", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 28ms (View: 4, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291451353263&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:30:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:30:27) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451427658", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 10, DB: 3) | 200 OK [http://localhost/projects.json?_dc=1291451427658&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:30:28) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451428616", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 131ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291451428616&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (21.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:34:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 22) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:34:44) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451684954", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 3) | 200 OK [http://localhost/projects.json?_dc=1291451684954&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:34:45) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451685725", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291451685725&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:36:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:36:40) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451800638", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 11, DB: 3) | 200 OK [http://localhost/projects.json?_dc=1291451800638&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:36:41) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451801632", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291451801632&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:36:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:36:55) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451815623", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 21ms (View: 10, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291451815623&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:36:56) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451816658", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 28ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291451816658&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:37:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:37:19) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451839420", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291451839420&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:37:20) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451840068", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 26ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291451840068&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:39:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:39:19) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291451959312", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291451959312&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:39:20) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291451960010", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 28ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291451960010&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:40:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:40:38) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452037915", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291452037915&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:40:38) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452038588", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452038588&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:48:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:48:52) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452532198", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291452532198&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:48:53) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452532876", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452532876&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:49:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:49:28) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452568621", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 21ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291452568621&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:49:29) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452569286", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 26ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452569286&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:49:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:49:59) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452599797", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 21ms (View: 10, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291452599797&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:50:01) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452601029", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 28ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452601029&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:50:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:50:18) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452618271", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 113ms (View: 103, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291452618271&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:50:18) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452618946", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 181ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452618946&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:51:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:51:08) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452668854", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (21.0ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 41ms (View: 11, DB: 22) | 200 OK [http://localhost/projects.json?_dc=1291452668854&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:51:09) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452669570", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 28ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452669570&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:51:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:51:35) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452695781", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 10, DB: 3) | 200 OK [http://localhost/projects.json?_dc=1291452695781&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:51:36) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452696448", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 26ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452696448&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:52:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:52:25) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452745264", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291452745264&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:52:25) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452745936", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452745936&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:54:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:54:51) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452891438", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (39.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 61ms (View: 12, DB: 40) | 200 OK [http://localhost/projects.json?_dc=1291452891438&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:54:52) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452892114", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 26ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452892114&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:55:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:55:37) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452937643", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 24ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291452937643&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:55:38) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452938888", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452938888&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:56:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:56:32) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291452992274", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291452992274&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:56:32) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291452992957", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291452992957&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:57:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:57:26) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453046018", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (9.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 31ms (View: 12, DB: 10) | 200 OK [http://localhost/projects.json?_dc=1291453046018&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:57:27) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453047290", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453047290&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:57:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:57:57) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453077308", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291453077308&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:57:58) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453077987", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453077987&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:58:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:58:48) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453128590", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (34.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 55ms (View: 11, DB: 35) | 200 OK [http://localhost/projects.json?_dc=1291453128590&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:58:50) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453130068", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453130068&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 05:59:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 05:59:25) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453165518", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291453165518&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 05:59:26) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453166212", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 26ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453166212&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:00:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:00:10) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453210557", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 24ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291453210557&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:00:12) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453212362", "sort"=>"name"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 55ms (View: 2, DB: 7) | 200 OK [http://localhost/features.json?_dc=1291453212362&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:00:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 28ms (View: 22, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:00:34) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453234798", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 125ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291453234798&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:00:35) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453235526", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 52ms (View: 21, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453235526&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (25.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:01:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 16ms (View: 4, DB: 26) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:01:12) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453272622", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 20ms (View: 10, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291453272622&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:01:14) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453273991", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 141ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453273991&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:01:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (14.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:01:32) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453292801", "sort"=>"name"}
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 292ms (View: 274, DB: 17) | 200 OK [http://localhost/projects.json?_dc=1291453292801&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:01:33) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453293705", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453293705&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:03:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:04:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:04:07) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453447380", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (12.9ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 124ms (View: 12, DB: 13) | 200 OK [http://localhost/projects.json?_dc=1291453447380&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:04:08) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453448908", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 28ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453448908&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:06:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:06:48) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453608071", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291453608071&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:06:48) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453608758", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 137ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453608758&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:12:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:12:29) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453949073", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (114.0ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 159ms (View: 37, DB: 114) | 200 OK [http://localhost/projects.json?_dc=1291453949073&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:12:30) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453950671", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (14.1ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 40ms (View: 1, DB: 17) | 200 OK [http://localhost/features.json?_dc=1291453950671&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:12:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:12:56) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291453976361", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291453976361&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:12:57) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291453977758", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291453977758&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (16.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:14:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 17) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:14:08) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291454048710", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 20ms (View: 10, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291454048710&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:14:09) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291454049442", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 28ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291454049442&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:16:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:16:42) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291454202148", "sort"=>"name"}
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 21ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291454202148&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:16:42) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291454202908", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 28ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291454202908&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:17:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:17:10) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291454230227", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 28ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291454230227&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (22.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:17:11) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291454231096", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 26) | 200 OK [http://localhost/features.json?_dc=1291454231096&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:19:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 28ms (View: 4, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:19:17) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291454357110", "sort"=>"name"}
+  [4;36;1mProject Load (112.1ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (219.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 355ms (View: 13, DB: 332) | 200 OK [http://localhost/projects.json?_dc=1291454357110&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:19:18) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291454358883", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 26ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291454358883&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:21:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:21:59) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291454519337", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 24ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291454519337&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:22:00) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291454520035", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (33.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 165ms (View: 1, DB: 36) | 200 OK [http://localhost/features.json?_dc=1291454520035&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (74.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:22:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 44ms (View: 16, DB: 74) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:22:30) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291454550338", "sort"=>"name"}
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (109.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 363ms (View: 152, DB: 110) | 200 OK [http://localhost/projects.json?_dc=1291454550338&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:22:35) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291454554988", "sort"=>"name"}
+  [4;36;1mFeature Load (0.5ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291454554988&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:23:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 110ms (View: 74, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:23:57) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291454637781", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (141.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 172ms (View: 21, DB: 142) | 200 OK [http://localhost/projects.json?_dc=1291454637781&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:23:58) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291454638789", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291454638789&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (15.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (18.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:28:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 655ms (View: 4, DB: 35) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:28:31) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291454911383", "sort"=>"name"}
+  [4;36;1mProject Load (30.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (92.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 298ms (View: 165, DB: 123) | 200 OK [http://localhost/projects.json?_dc=1291454911383&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:28:32) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291454912400", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 187ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291454912400&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (90.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (14.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:30:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 55ms (View: 35, DB: 105) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:30:45) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291455045375", "sort"=>"name"}
+  [4;36;1mProject Load (0.6ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (74.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 293ms (View: 38, DB: 76) | 200 OK [http://localhost/projects.json?_dc=1291455045375&sort=name&dir=ASC]
+  [4;36;1mSQL (14.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:30:47) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291455046840", "sort"=>"name"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (46.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 255ms (View: 2, DB: 64) | 200 OK [http://localhost/features.json?_dc=1291455046840&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (35.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (11.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:33:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 123ms (View: 98, DB: 46) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:33:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 40ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:33:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:33:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:33:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:33:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:33:35) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291455215253", "sort"=>"name"}
+  [4;36;1mProject Load (28.6ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (165.9ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 227ms (View: 16, DB: 195) | 200 OK [http://localhost/projects.json?_dc=1291455215253&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:33:35) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291455215670", "sort"=>"name"}
+  [4;36;1mFeature Load (12.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (16.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 210ms (View: 2, DB: 32) | 200 OK [http://localhost/features.json?_dc=1291455215670&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (62.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (70.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:34:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 49ms (View: 39, DB: 134) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:34:32) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291455272223", "sort"=>"name"}
+  [4;36;1mProject Load (15.8ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (86.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 170ms (View: 20, DB: 102) | 200 OK [http://localhost/projects.json?_dc=1291455272223&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:34:36) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291455276208", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (3.7ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 76ms (View: 1, DB: 7) | 200 OK [http://localhost/features.json?_dc=1291455276208&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (139.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:51:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 76ms (View: 46, DB: 145) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:51:49) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291456309712", "sort"=>"name"}
+  [4;36;1mProject Load (215.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (619.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 1401ms (View: 335, DB: 835) | 200 OK [http://localhost/projects.json?_dc=1291456309712&sort=name&dir=ASC]
+  [4;36;1mSQL (20.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (34.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:51:54) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291456312212", "sort"=>"name"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (39.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 132ms (View: 2, DB: 98) | 200 OK [http://localhost/features.json?_dc=1291456312212&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (38.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (27.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:52:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 86ms (View: 19, DB: 66) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:53:08) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291456386031", "sort"=>"name"}
+  [4;36;1mProject Load (62.5ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (227.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 400ms (View: 92, DB: 290) | 200 OK [http://localhost/projects.json?_dc=1291456386031&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:53:08) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291456388573", "sort"=>"name"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (3.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 190ms (View: 2, DB: 7) | 200 OK [http://localhost/features.json?_dc=1291456388573&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (96.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:57:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 170ms (View: 50, DB: 98) | 200 OK [http://localhost/]
+  [4;36;1mSQL (78.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:57:32) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291456651755", "sort"=>"name"}
+  [4;36;1mProject Load (103.7ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (453.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 771ms (View: 169, DB: 637) | 200 OK [http://localhost/projects.json?_dc=1291456651755&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:57:35) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291456655329", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (40.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 101ms (View: 1, DB: 42) | 200 OK [http://localhost/features.json?_dc=1291456655329&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 06:57:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (247.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 06:57:52) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291456671905", "sort"=>"name"}
+  [4;36;1mProject Load (119.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (64.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 256ms (View: 20, DB: 431) | 200 OK [http://localhost/projects.json?_dc=1291456671905&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 06:58:15) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291456695245", "sort"=>"name"}
+  [4;36;1mFeature Load (28.6ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 655ms (View: 2, DB: 34) | 200 OK [http://localhost/features.json?_dc=1291456695245&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (150.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:00:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 436ms (View: 38, DB: 170) | 200 OK [http://localhost/]
+  [4;36;1mSQL (200.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (9.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:00:22) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291456821332", "sort"=>"name"}
+  [4;36;1mProject Load (27.9ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (224.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 600ms (View: 141, DB: 462) | 200 OK [http://localhost/projects.json?_dc=1291456821332&sort=name&dir=ASC]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:00:27) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291456824768", "sort"=>"name"}
+  [4;36;1mFeature Load (34.7ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (32.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 131ms (View: 2, DB: 70) | 200 OK [http://localhost/features.json?_dc=1291456824768&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (69.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (13.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:02:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 76ms (View: 28, DB: 83) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:02:53) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291456971160", "sort"=>"name"}
+  [4;36;1mProject Load (104.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (344.3ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 587ms (View: 59, DB: 449) | 200 OK [http://localhost/projects.json?_dc=1291456971160&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:02:54) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291456974495", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 39ms (View: 1, DB: 3) | 200 OK [http://localhost/features.json?_dc=1291456974495&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (230.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:06:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 332ms (View: 69, DB: 247) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:07:01) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291457220592", "sort"=>"name"}
+  [4;36;1mProject Load (95.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (168.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 366ms (View: 22, DB: 264) | 200 OK [http://localhost/projects.json?_dc=1291457220592&sort=name&dir=ASC]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:07:01) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291457221228", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 68ms (View: 2, DB: 7) | 200 OK [http://localhost/features.json?_dc=1291457221228&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:07:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:07:39) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291457259518", "sort"=>"name"}
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 21ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291457259518&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:07:40) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291457260517", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 28ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291457260517&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:08:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:08:44) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291457324347", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291457324347&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:08:45) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291457325064", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291457325064&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:14:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:14:31) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291457671051", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291457671051&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:14:31) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291457671828", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 26ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291457671828&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:15:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:15:05) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291457704983", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291457704983&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:15:05) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291457705795", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291457705795&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:15:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:16:01) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291457761638", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 26ms (View: 14, DB: 3) | 200 OK [http://localhost/projects.json?_dc=1291457761638&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:16:02) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291457762361", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 30ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291457762361&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:21:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:21:50) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291458110622", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291458110622&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:21:51) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291458111349", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291458111349&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:26:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:26:17) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291458377671", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291458377671&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:26:18) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291458378468", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291458378468&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:28:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:28:05) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291458485505", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 129ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291458485505&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:28:06) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291458486717", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291458486717&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:29:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:29:20) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291458560627", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 24ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291458560627&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:29:21) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291458561404", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291458561404&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:36:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:36:09) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291458969054", "sort"=>"name"}
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291458969054&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:36:09) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291458969821", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291458969821&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:42:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:42:30) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291459349976", "sort"=>"name"}
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291459349976&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:42:30) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291459350756", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 27ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291459350756&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:43:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:43:36) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291459416392", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 24ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291459416392&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:43:37) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291459417625", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 26ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291459417625&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#create to json (for 127.0.0.1 at 2010-12-04 07:43:52) [POST]
+  Parameters: {"feature"=>{"so_that"=>"teste", "as_a"=>"analista", "title"=>"teste", "project_id"=>1, "i_want"=>"cadastrar"}, "dir"=>"ASC", "project_id"=>1, "sort"=>"name"}
+  [4;36;1mFeature Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mFeature Create (225.6ms)[0m   [0;1mINSERT INTO `features` (`so_that`, `created_at`, `title`, `as_a`, `project_id`, `updated_at`, `i_want`, `status`) VALUES('teste', '2010-12-04 10:43:52', 'teste', 'analista', 1, '2010-12-04 10:43:52', 'cadastrar', NULL)[0m
+  [4;35;1mSQL (83.9ms)[0m   [0mCOMMIT[0m
+Completed in 660ms (View: 4, DB: 314) | 200 OK [http://localhost/features.json]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:44:19) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291459458985", "sort"=>"name", "limit"=>"5"}
+  [4;36;1mFeature Load (134.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (14.3ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 178ms (View: 1, DB: 150) | 200 OK [http://localhost/features.json?_dc=1291459458985&start=0&limit=5&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:51:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:51:17) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291459877864", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 21ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291459877864&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:51:18) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291459878639", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291459878639&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#create to json (for 127.0.0.1 at 2010-12-04 07:51:38) [POST]
+  Parameters: {"feature"=>{"so_that"=>"Para cadastrar", "as_a"=>"programador", "title"=>"outro teste", "project_id"=>1, "i_want"=>"cadastrar"}, "dir"=>"ASC", "project_id"=>1, "sort"=>"name"}
+  [4;36;1mFeature Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mFeature Create (0.4ms)[0m   [0;1mINSERT INTO `features` (`so_that`, `created_at`, `title`, `as_a`, `project_id`, `updated_at`, `i_want`, `status`) VALUES('Para cadastrar', '2010-12-04 10:51:38', 'outro teste', 'programador', 1, '2010-12-04 10:51:38', 'cadastrar', NULL)[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mCOMMIT[0m
+Completed in 36ms (View: 2, DB: 18) | 200 OK [http://localhost/features.json]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 07:57:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 07:57:48) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291460268925", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 20ms (View: 10, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291460268925&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 07:57:49) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291460269688", "sort"=>"name"}
+  [4;36;1mFeature Load (0.6ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 30ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291460269688&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#create to json (for 127.0.0.1 at 2010-12-04 07:57:58) [POST]
+  Parameters: {"feature"=>{"so_that"=>"gyug", "as_a"=>"gyu", "title"=>"teswt", "project_id"=>1, "i_want"=>"gyu"}, "dir"=>"ASC", "project_id"=>1, "sort"=>"name"}
+  [4;36;1mFeature Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mFeature Create (0.4ms)[0m   [0;1mINSERT INTO `features` (`so_that`, `created_at`, `title`, `as_a`, `project_id`, `updated_at`, `i_want`, `status`) VALUES('gyug', '2010-12-04 10:57:58', 'teswt', 'gyu', 1, '2010-12-04 10:57:58', 'gyu', NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Completed in 30ms (View: 3, DB: 4) | 200 OK [http://localhost/features.json]
+  [4;36;1mSQL (39.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 08:48:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 108ms (View: 102, DB: 39) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 08:48:21) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291463301232", "sort"=>"name"}
+  [4;36;1mProject Load (288.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (20.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 585ms (View: 40, DB: 309) | 200 OK [http://localhost/projects.json?_dc=1291463301232&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 08:48:22) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291463302104", "sort"=>"name"}
+  [4;36;1mFeature Load (36.1ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 127ms (View: 4, DB: 40) | 200 OK [http://localhost/features.json?_dc=1291463302104&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 08:50:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 08:50:29) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291463429841", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291463429841&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 08:50:30) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291463430515", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 46ms (View: 2, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291463430515&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 08:50:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 08:51:03) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291463463002", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291463463002&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 08:51:03) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291463463964", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 34ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291463463964&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 08:51:10) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291463470384", "sort"=>"name", "limit"=>"5"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 30ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291463470384&start=0&limit=5&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:22:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:22:49) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291465369132", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291465369132&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:22:49) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291465369823", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291465369823&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:24:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:24:18) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291465458822", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291465458822&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:24:19) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291465459524", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291465459524&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:26:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:26:53) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291465613143", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291465613143&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:26:54) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291465613858", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291465613858&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:29:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:29:21) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291465761820", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 125ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291465761820&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:29:23) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291465763707", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291465763707&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:29:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:29:51) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291465791152", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 24ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291465791152&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:29:52) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291465792242", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291465792242&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:30:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:30:13) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291465813917", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291465813917&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:30:14) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291465814619", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291465814619&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:31:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:31:51) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291465911329", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 21ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291465911329&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:31:52) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291465912032", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 137ms (View: 107, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291465912032&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:45:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:45:55) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291466755579", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (14.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 136ms (View: 13, DB: 15) | 200 OK [http://localhost/projects.json?_dc=1291466755579&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:45:56) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291466756287", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291466756287&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:46:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:46:43) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291466803682", "sort"=>"name"}
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291466803682&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:46:44) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291466804374", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291466804374&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:47:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:47:05) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291466824972", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 24ms (View: 12, DB: 3) | 200 OK [http://localhost/projects.json?_dc=1291466824972&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:47:05) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291466825685", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291466825685&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 09:52:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 09:52:10) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291467130593", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291467130593&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 09:52:11) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291467131279", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291467131279&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 10:28:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 10:28:20) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291469300643", "sort"=>"name"}
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291469300643&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 10:28:21) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291469301404", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291469301404&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 10:28:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 10:28:59) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291469339659", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 40ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291469339659&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 10:29:00) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291469340846", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291469340846&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 10:32:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 10:32:15) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291469535581", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291469535581&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 10:32:16) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291469536358", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291469536358&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 10:32:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 10:32:47) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291469567592", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291469567592&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 10:32:48) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291469568345", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291469568345&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 10:41:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 10:41:29) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291470089123", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291470089123&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 10:41:29) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291470089873", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291470089873&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 10:53:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 10:53:19) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291470799441", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 20ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291470799441&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 10:53:20) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291470800197", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291470800197&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 10:54:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 10:54:57) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291470897591", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291470897591&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 10:54:58) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291470898356", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291470898356&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 10:58:22) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291471102519", "sort"=>"name", "limit"=>"5"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 150ms (View: 1, DB: 3) | 200 OK [http://localhost/features.json?_dc=1291471102519&start=0&limit=5&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 11:00:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 11:00:24) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291471224497", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 68ms (View: 10, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291471224497&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 11:00:25) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291471225398", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291471225398&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-04 11:01:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-04 11:01:31) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291471291439", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 24ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291471291439&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-04 11:01:32) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291471292179", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291471292179&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#create to json (for 127.0.0.1 at 2010-12-04 11:01:44) [POST]
+  Parameters: {"feature"=>{"so_that"=>"teste", "as_a"=>"teste", "title"=>"teste", "i_want"=>"teste"}, "dir"=>"ASC", "project_id"=>1, "sort"=>"name"}
+  [4;36;1mFeature Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `features`[0m
+  [4;35;1mSQL (68.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mFeature Create (253.8ms)[0m   [0;1mINSERT INTO `features` (`so_that`, `created_at`, `title`, `as_a`, `project_id`, `updated_at`, `i_want`, `status`) VALUES('teste', '2010-12-04 14:01:44', 'teste', 'teste', NULL, '2010-12-04 14:01:44', 'teste', NULL)[0m
+  [4;35;1mSQL (71.6ms)[0m   [0mCOMMIT[0m
+Completed in 787ms (View: 5, DB: 398) | 200 OK [http://localhost/features.json]

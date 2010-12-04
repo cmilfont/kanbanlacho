@@ -2,16 +2,18 @@ class FeaturesController < ApplicationController
   # GET /features
   # GET /features.json
   def index
-    @features = Feature.all({:conditions => {:project_id => params[:project_id]}})
+    @features = Feature.all({:conditions => {:project_id => params[:project_id]}, :include => [:project] })
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json  { render :json => {
+      format.json  {
+        render :json => {
           :total => @features.size,
           :feature => @features,
           :success => true,
           :message => ""
-      }}
+        }.to_json(:include => [:project])
+      }
     end
   end
 

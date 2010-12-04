@@ -1,6 +1,6 @@
 var configStoreDefault ={
     root: 'data',
-    url: '/direct',
+    url: '/',
     storeId: 'companies',
 	autoLoad: false,
 	autoSave: false,
