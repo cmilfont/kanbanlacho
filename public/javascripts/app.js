@@ -75,8 +75,9 @@ var MilfontFormPanel = Ext.extend(Ext.FormPanel, {
     constructor: function(config) {
         config.monitorValid = true;
         config.xtype = 'form';
-        config.width = 360;
-        config.border = false;
+        config.width = 340;
+        config.border = true;
+        config.frame = true;
         config.defaults = {width: 200, allowBlank: false};
         config.defaultType= 'textfield';
 
@@ -88,10 +89,7 @@ var MilfontFormPanel = Ext.extend(Ext.FormPanel, {
                 record = button.ownerCt.ownerCt.getForm().getRecord();
                 if(record.phantom) {
                     grid.store.insert(0, record);
-                    //grid.startEditing(0, 0);
-                    //button.ownerCt.ownerCt.store.add(record);
                 }
-                //grid.getView().refresh(true);
                 button.ownerCt.ownerCt.ownerCt.close();
               }
           }
@@ -106,7 +104,7 @@ var MilfontFormPanel = Ext.extend(Ext.FormPanel, {
 
 var cadastrar = function(title) {
     var win = new Ext.Window({
-       title: title, height: 200, width: 400, modal: true,
+       title: title, /*height: 250, width: 400,*/ modal: true,
        items: [ new MilfontFormPanel({
             factoryRecord: FeatureRecord,
             items: [
@@ -126,11 +124,11 @@ var cadastrar = function(title) {
 
 var editar = function(title) {
     var win = new Ext.Window({
-       title: title, height: 200, width: 400, modal: true,
+       title: title, /*height: 250, width: 400,*/ modal: true,
        items: [ new MilfontFormPanel({
             factoryRecord: FeatureRecord,
             items: [
-                {fieldLabel: 'Id',   name: 'id' },
+                {fieldLabel: 'Id',   name: 'id', readonly:true },
                 {fieldLabel: 'Project id', name: 'project_id' },
                 {fieldLabel: 'Title',   name: 'title' },
                 {fieldLabel: 'So That', name: 'so_that'},
@@ -146,8 +144,9 @@ var editar = function(title) {
     if(!record){
         win.close();
         Ext.Msg.alert('Status', 'Por favor, selecione uma linha do grid!');
+    } else {
+        win.getComponent(0).getForm().loadRecord(record);
     }
-    win.getComponent(0).getForm().loadRecord(record);
 
 };
 
@@ -195,6 +194,5 @@ Ext.onReady(function(){
         , width: 800, height: 200, frame: true, autoShow: true
         , title: 'Grid de Features', iconCls: 'icon-grid', bbar: pagingBar
     });
-    //grid.relayEvents(FeatureStore, ['destroy', 'save', 'update']);
 });
 

@@ -11867,3 +11867,2082 @@ Processing FeaturesController#create to json (for 127.0.0.1 at 2010-12-04 21:53:
   [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
   [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
 Completed in 172ms (View: 1, DB: 9) | 200 OK [http://localhost/features.json]
+  [4;36;1mSQL (62.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:00:58) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291554057782", "sort"=>"name", "limit"=>"5"}
+  [4;36;1mFeature Load (143.0ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (44.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 392ms (View: 65, DB: 254) | 200 OK [http://localhost/features.json?_dc=1291554057782&start=0&limit=5&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:03:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 63ms (View: 58, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:03:32) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291554212348", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 30ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291554212348&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:03:32) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291554212372", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291554212372&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:14:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:14:55) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291554895057", "sort"=>"name"}
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 27ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291554895057&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:14:55) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291554895085", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 40ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291554895085&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:16:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:16:11) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291554971458", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 27ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291554971458&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:16:11) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291554971482", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291554971482&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:16:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 11ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:16:49) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555009593", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 29ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555009593&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:16:49) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555009619", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (4.3ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 48ms (View: 1, DB: 8) | 200 OK [http://localhost/features.json?_dc=1291555009619&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:17:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:17:31) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555051931", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 29ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555051931&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:17:32) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555051957", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 34ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291555051957&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:19:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:19:13) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555153757", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 29ms (View: 15, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555153757&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:19:13) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555153782", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291555153782&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:20:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:20:50) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555250744", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 28ms (View: 15, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555250744&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:20:50) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555250769", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 35ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291555250769&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (7.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:24:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 11ms (View: 8, DB: 7) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:24:42) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555482491", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (10.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 36ms (View: 14, DB: 11) | 200 OK [http://localhost/projects.json?_dc=1291555482491&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:24:42) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555482513", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291555482513&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:27:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 23ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:27:52) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555672822", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 26ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555672822&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:27:52) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555672845", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 35ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291555672845&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:28:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:28:09) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555689019", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 23ms (View: 11, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555689019&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:28:09) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555689092", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291555689092&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:29:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:29:46) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555786270", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 27ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555786270&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:29:46) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555786291", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291555786291&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:31:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 23ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:31:28) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555888024", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 28ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555888024&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:31:28) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555888045", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291555888045&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:31:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 25ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:31:46) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555906494", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 30ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555906494&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:31:46) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555906516", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291555906516&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:32:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:32:16) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555936570", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 27ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555936570&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:32:16) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555936593", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 34ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291555936593&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:32:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:32:42) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291555962920", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 28ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291555962920&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:32:43) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291555962941", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291555962941&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:33:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 12ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:33:41) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556021270", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 27ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291556021270&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:33:41) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556021291", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556021291&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:35:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:35:25) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556125334", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 26ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291556125334&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:35:25) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556125355", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556125355&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:35:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:35:54) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291556154429", "sort"=>"name", "limit"=>"5"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 30ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556154429&start=0&limit=5&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:35:56) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291556156070", "sort"=>"name", "limit"=>"5"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 29ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556156070&start=0&limit=5&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:36:06) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291556166075", "sort"=>"as_a", "limit"=>"5"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556166075&start=0&limit=5&sort=as_a&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:36:11) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291556171187", "sort"=>"id", "limit"=>"5"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556171187&start=0&limit=5&sort=id&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:36:12) [GET]
+  Parameters: {"dir"=>"DESC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291556172481", "sort"=>"id", "limit"=>"5"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 30ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556172481&start=0&limit=5&sort=id&dir=DESC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:36:13) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291556173834", "sort"=>"id", "limit"=>"5"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556173834&start=0&limit=5&sort=id&dir=ASC&project_id=1]
+  [4;36;1mSQL (23.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:38:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 23ms (View: 17, DB: 24) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:38:44) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556323980", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 64ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291556323980&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:38:44) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556324050", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556324050&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:38:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:39:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:39:23) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556363095", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 24ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291556363095&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:39:23) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556363139", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 139ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556363139&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:39:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:39:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:39:48) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556388456", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 32ms (View: 18, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291556388456&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:39:48) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556388479", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 48ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291556388479&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:39:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:40:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:40:27) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556427744", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 29ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291556427744&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:40:27) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556427767", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556427767&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:40:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:40:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:40:55) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556455196", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (45.3ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 69ms (View: 12, DB: 46) | 200 OK [http://localhost/projects.json?_dc=1291556455196&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:40:55) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556455220", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 32ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291556455220&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:40:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:41:01) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291556461599", "sort"=>"name", "limit"=>"5"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556461599&start=0&limit=5&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:43:38) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "start"=>"0", "_dc"=>"1291556618361", "sort"=>"name", "limit"=>"5"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556618361&start=0&limit=5&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:43:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 33ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:43:58) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556638297", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 36ms (View: 17, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291556638297&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:43:58) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556638323", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 35ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291556638323&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:43:58) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (33.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:45:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 62ms (View: 54, DB: 34) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:45:53) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556753361", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (139.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 194ms (View: 33, DB: 140) | 200 OK [http://localhost/projects.json?_dc=1291556753361&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:45:53) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556753411", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (13.8ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 541ms (View: 3, DB: 18) | 200 OK [http://localhost/features.json?_dc=1291556753411&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:45:54) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (29.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:46:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 17, DB: 29) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:46:33) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556793727", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (10.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 55ms (View: 31, DB: 11) | 200 OK [http://localhost/projects.json?_dc=1291556793727&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:46:33) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556793767", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 38ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291556793767&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:46:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:47:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 31ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:47:05) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556825800", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 25ms (View: 12, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291556825800&sort=name&dir=ASC]
+  [4;36;1mSQL (6.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:47:05) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556825883", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 36ms (View: 1, DB: 12) | 200 OK [http://localhost/features.json?_dc=1291556825883&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:47:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:47:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 177ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:47:54) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556874699", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 26ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291556874699&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:47:54) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556874744", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 49ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291556874744&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:48:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 53ms (View: 47, DB: 31) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:48:34) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291556913617", "sort"=>"name"}
+  [4;36;1mProject Load (35.1ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (108.9ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 468ms (View: 78, DB: 145) | 200 OK [http://localhost/projects.json?_dc=1291556913617&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:48:36) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291556916311", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (197.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 460ms (View: 2, DB: 200) | 200 OK [http://localhost/features.json?_dc=1291556916311&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:48:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:54:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 12ms (View: 8, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:54:59) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557299335", "sort"=>"name"}
+  [4;36;1mProject Load (28.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (70.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 126ms (View: 14, DB: 99) | 200 OK [http://localhost/projects.json?_dc=1291557299335&sort=name&dir=ASC]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:54:59) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557299371", "sort"=>"name"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (3.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 115ms (View: 1, DB: 8) | 200 OK [http://localhost/features.json?_dc=1291557299371&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:54:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:56:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 27ms (View: 21, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:56:37) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557396994", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 30ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291557396994&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:56:37) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557397016", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291557397016&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:56:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:57:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 13ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:57:04) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557424310", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 26ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291557424310&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:57:04) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557424334", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291557424334&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:57:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:57:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:57:55) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557475891", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 26ms (View: 14, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291557475891&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:57:56) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557475913", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291557475913&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:57:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:58:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 25ms (View: 19, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:58:29) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557509667", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (11.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 38ms (View: 13, DB: 12) | 200 OK [http://localhost/projects.json?_dc=1291557509667&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:58:29) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557509689", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 33ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291557509689&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:58:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:59:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 16, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:59:04) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557544827", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 34ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291557544827&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:59:04) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557544849", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 36ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291557544849&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:59:05) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 10:59:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 10:59:56) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557596170", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (11.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 45ms (View: 15, DB: 12) | 200 OK [http://localhost/projects.json?_dc=1291557596170&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 10:59:56) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557596189", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291557596189&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 10:59:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:01:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:01:42) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557702279", "sort"=>"name"}
+  [4;36;1mProject Load (33.6ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (42.0ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 164ms (View: 40, DB: 76) | 200 OK [http://localhost/projects.json?_dc=1291557702279&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:01:42) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557702323", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 187ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291557702323&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:01:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:02:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 23ms (View: 17, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:02:37) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557756745", "sort"=>"name"}
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (23.9ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 86ms (View: 33, DB: 25) | 200 OK [http://localhost/projects.json?_dc=1291557756745&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:02:37) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557756820", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 31ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291557756820&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:02:37) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (20.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:03:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 35ms (View: 29, DB: 21) | 200 OK [http://localhost/]
+  [4;36;1mSQL (22.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:03:42) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557822530", "sort"=>"name"}
+  [4;36;1mProject Load (25.7ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (212.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 354ms (View: 31, DB: 261) | 200 OK [http://localhost/projects.json?_dc=1291557822530&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:03:43) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557822593", "sort"=>"name"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 110ms (View: 2, DB: 9) | 200 OK [http://localhost/features.json?_dc=1291557822593&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:03:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (15.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:03:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 5ms (View: 2, DB: 15) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:04:02) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557842457", "sort"=>"name"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 26ms (View: 13, DB: 2) | 200 OK [http://localhost/projects.json?_dc=1291557842457&sort=name&dir=ASC]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:04:02) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557842479", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 55ms (View: 1, DB: 4) | 200 OK [http://localhost/features.json?_dc=1291557842479&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:04:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:04:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 173ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:04:45) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557885039", "sort"=>"name"}
+  [4;36;1mProject Load (48.3ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (138.5ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 385ms (View: 27, DB: 187) | 200 OK [http://localhost/projects.json?_dc=1291557885039&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:04:45) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557885060", "sort"=>"name"}
+  [4;36;1mFeature Load (0.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 48ms (View: 1, DB: 5) | 200 OK [http://localhost/features.json?_dc=1291557885060&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:04:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (73.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:05:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 139ms (View: 111, DB: 74) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:05:42) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557942207", "sort"=>"name"}
+  [4;36;1mProject Load (32.8ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (336.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 423ms (View: 26, DB: 369) | 200 OK [http://localhost/projects.json?_dc=1291557942207&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:05:43) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557942229", "sort"=>"name"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 485ms (View: 2, DB: 6) | 200 OK [http://localhost/features.json?_dc=1291557942229&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:05:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:06:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 30ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:06:24) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291557984519", "sort"=>"name"}
+  [4;36;1mProject Load (72.4ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (16.9ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 1068ms (View: 25, DB: 90) | 200 OK [http://localhost/projects.json?_dc=1291557984519&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:06:26) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291557986641", "sort"=>"name"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (48.6ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 106ms (View: 2, DB: 52) | 200 OK [http://localhost/features.json?_dc=1291557986641&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:06:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (33.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (4.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:07:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 55ms (View: 36, DB: 38) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:07:31) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291558051055", "sort"=>"name"}
+  [4;36;1mProject Load (56.5ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (296.3ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 810ms (View: 226, DB: 353) | 200 OK [http://localhost/projects.json?_dc=1291558051055&sort=name&dir=ASC]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:07:32) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291558051111", "sort"=>"name"}
+  [4;36;1mFeature Load (0.3ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 230ms (View: 2, DB: 6) | 200 OK [http://localhost/features.json?_dc=1291558051111&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:07:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (61.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:08:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 207ms (View: 85, DB: 63) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:08:45) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291558125729", "sort"=>"name"}
+  [4;36;1mProject Load (104.2ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (140.6ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 389ms (View: 27, DB: 245) | 200 OK [http://localhost/projects.json?_dc=1291558125729&sort=name&dir=ASC]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:08:46) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291558125758", "sort"=>"name"}
+  [4;36;1mFeature Load (1.6ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 76ms (View: 2, DB: 7) | 200 OK [http://localhost/features.json?_dc=1291558125758&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:08:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (46.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (31.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:10:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 76ms (View: 34, DB: 78) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:10:29) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291558229330", "sort"=>"name"}
+  [4;36;1mProject Load (56.5ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (228.7ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 410ms (View: 46, DB: 286) | 200 OK [http://localhost/projects.json?_dc=1291558229330&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:10:29) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291558229391", "sort"=>"name"}
+  [4;36;1mFeature Load (0.6ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 129ms (View: 2, DB: 7) | 200 OK [http://localhost/features.json?_dc=1291558229391&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:10:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (46.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (21.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:11:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 84ms (View: 65, DB: 68) | 200 OK [http://localhost/]
+  [4;36;1mSQL (6.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:11:24) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291558284411", "sort"=>"name"}
+  [4;36;1mProject Load (67.7ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (872.3ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 1071ms (View: 26, DB: 947) | 200 OK [http://localhost/projects.json?_dc=1291558284411&sort=name&dir=ASC]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:11:26) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291558284539", "sort"=>"name"}
+  [4;36;1mFeature Load (0.4ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 420ms (View: 2, DB: 6) | 200 OK [http://localhost/features.json?_dc=1291558284539&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:11:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (173.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (226.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:15:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 51ms (View: 44, DB: 399) | 200 OK [http://localhost/]
+  [4;36;1mSQL (58.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:15:23) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291558521536", "sort"=>"name"}
+  [4;36;1mProject Load (101.8ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (1274.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 1856ms (View: 238, DB: 1436) | 200 OK [http://localhost/projects.json?_dc=1291558521536&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:15:25) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291558521836", "sort"=>"name"}
+  [4;36;1mFeature Load (0.5ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (187.3ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 482ms (View: 2, DB: 191) | 200 OK [http://localhost/features.json?_dc=1291558521836&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:15:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (39.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:15:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 4, DB: 54) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:16:02) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291558562567", "sort"=>"name"}
+  [4;36;1mProject Load (172.0ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (321.1ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 816ms (View: 145, DB: 494) | 200 OK [http://localhost/projects.json?_dc=1291558562567&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:16:03) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291558562635", "sort"=>"name"}
+  [4;36;1mFeature Load (0.6ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.3ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 137ms (View: 2, DB: 6) | 200 OK [http://localhost/features.json?_dc=1291558562635&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (17.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:16:15) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (80.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2010-12-05 11:18:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 532ms (View: 318, DB: 82) | 200 OK [http://localhost/]
+  [4;36;1mSQL (53.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index to json (for 127.0.0.1 at 2010-12-05 11:19:19) [GET]
+  Parameters: {"dir"=>"ASC", "_dc"=>"1291558757702", "sort"=>"name"}
+  [4;36;1mProject Load (119.7ms)[0m   [0;1mSELECT * FROM `projects` [0m
+  [4;35;1mProject Columns (327.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+Completed in 2055ms (View: 701, DB: 501) | 200 OK [http://localhost/projects.json?_dc=1291558757702&sort=name&dir=ASC]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FeaturesController#index to json (for 127.0.0.1 at 2010-12-05 11:19:40) [GET]
+  Parameters: {"dir"=>"ASC", "project_id"=>"1", "_dc"=>"1291558757940", "sort"=>"name"}
+  [4;36;1mFeature Load (234.2ms)[0m   [0;1mSELECT * FROM `features` WHERE (`features`.`project_id` = '1') [0m
+  [4;35;1mFeature Columns (383.3ms)[0m   [0mSHOW FIELDS FROM `features`[0m
+  [4;36;1mProject Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.1ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+Completed in 1693ms (View: 194, DB: 619) | 200 OK [http://localhost/features.json?_dc=1291558757940&sort=name&dir=ASC&project_id=1]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-05 11:19:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/gray/toolbar/bg.gif" with {:method=>:get}):
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/cmilfont/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
