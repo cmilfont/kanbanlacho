@@ -22,15 +22,21 @@ var FactoryStore = function(configStore) {
     var configStore = configStore || configStoreDefault;
 
 	var reader = new Ext.data.JsonReader({
-        id: 'id', root: configStore.root, totalProperty: 'total', successProperty: 'success', messageProperty: 'message'
+        id: "id",
+        idProperty: "id",
+        root: configStore.root,
+        totalProperty: 'total',
+        successProperty: 'success',
+        messageProperty: 'message'
         , fields: configStore.fields
         //, sortInfo: {field: 'name', direction: 'ASC'}
-    });
+    }, configStore.fields);
 
     var temp = function() {
         console.log("arguments - begin");
         console.log(arguments);
         console.log("arguments - end");
+
     }
 
     var writer = new Ext.data.JsonWriter({
@@ -39,23 +45,24 @@ var FactoryStore = function(configStore) {
         //listful : true,
 
       //updateRecord  : temp,
-      //createRecord  : temp,
+      //createRecord  : temp
       //destroyRecord : temp
 
     });
 
     var proxy = new Ext.data.HttpProxy({
-        //url: configStore.url
-        api: {
-            read: {url: configStore.url, method: 'GET'},
-            create: {url: configStore.url, method: 'POST'},
+        url: configStore.url
+        /*api: {
+            read:    {url: configStore.url, method: 'GET'},
+            create:  {url: configStore.url, method: 'POST'},
             destroy: {url: configStore.url, method: 'DELETE'},
-            update: {url: configStore.url, method: 'PUT'}
-        }
+            update:  {url: configStore.url, method: 'PUT'}
+        }*/
 
     });
 
 	var abstractStore = new Ext.data.Store({
+    	//pruneModifiedRecords : true,
         restful:true,
 		//storeId: configStore.storeId,
 		autoLoad: configStore.autoLoad,
@@ -65,7 +72,15 @@ var FactoryStore = function(configStore) {
 		baseParams: configStore.baseParams,
 		reader: reader,
 		proxy: proxy,
-		writer: writer,
+		writer: writer/*,
+		listeners: {
+		    add: function() {
+
+		    },
+		    write : function( store, action, result, res, rs ) {
+		        console.log(arguments);
+		    }
+		}*/
 	});
 
     return abstractStore;

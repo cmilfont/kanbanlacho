@@ -11,7 +11,7 @@ class FeaturesController < ApplicationController
           :total => @features.size,
           :feature => @features,
           :success => true,
-          :message => ""
+          :message => "Carregado com sucesso"
         }.to_json(:include => [:project])
       }
     end
@@ -58,11 +58,11 @@ class FeaturesController < ApplicationController
       if @feature.save
         format.html { redirect_to(@feature, :notice => 'Feature was successfully created.') }
           format.json  { render :json => {
-              :total => 1,
               :feature => @feature,
               :success => true,
-              :message => ""
-          }}
+              :message => "Criado com sucesso"
+              }.to_json(:include => [:project])
+          }
       else
         format.html { render :action => "new" }
         format.json  { render :json => @feature.errors, :status => :unprocessable_entity }
@@ -79,11 +79,11 @@ class FeaturesController < ApplicationController
       if @feature.update_attributes(params[:feature])
         format.html { redirect_to(@feature, :notice => 'Feature was successfully updated.') }
           format.json  { render :json => {
-              :total => 1,
               :feature => @feature,
               :success => true,
-              :message => ""
-          }}
+              :message => "Atualizado com sucesso"
+              }.to_json(:include => [:project])
+          }
       else
         format.html { render :action => "edit" }
         format.json  { render :json => @feature.errors, :status => :unprocessable_entity }
@@ -99,7 +99,11 @@ class FeaturesController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to(features_url) }
-      format.json  { head :ok }
+      format.json  { render :json => {
+              :feature => [],
+              :success => true,
+              :message => "excluido com sucesso"
+          } }
     end
   end
 end
